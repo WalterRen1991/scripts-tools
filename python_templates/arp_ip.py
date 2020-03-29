@@ -12,7 +12,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='depends on mac to get ip')
 parser.add_argument('-m', '--mac_addr', help='Mac addr')
-parser.add_argument('-n', '--net_segment', help='Net segment')
+parser.add_argument('-n', '--net_segment', help='Net segment --- 172.17.85.')
 
 args = parser.parse_args()
 mac_addr = args.mac_addr
